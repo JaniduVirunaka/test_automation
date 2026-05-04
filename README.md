@@ -27,4 +27,4 @@ python -m playwright install
 ## Execution Instructions
 To run the automated test suite, ensure that all Excel files are closed. Then, run the following command in your terminal from the project root directory:
 
-python test_automation.py --excel "IT23343948.xlsx" --url "[https://www.pixelssuite.com/chat-translator](https://www.pixelssuite.com/chat-translator)" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1
+python test_automation.py --excel "IT23343948.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1
